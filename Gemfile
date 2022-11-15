@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-ruby "2.7.6"
+ruby "2.6.8"
 
-gem 'rails',        '5.1.6'
+gem 'rails',        '= 6.0.3.2'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
-gem 'sass-rails',   '5.0.6'
+gem 'sass-rails',   '< 6'
 gem 'uglifier',     '3.2.0'
 gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
@@ -25,7 +25,7 @@ group :development do
 end
 
 group :test do
-  gem 'rails-controller-testing', '1.0.2'
+  gem 'rails-controller-testing', '~> 1.0.2'
   gem 'minitest',                 '5.16.3'
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.16.2'
