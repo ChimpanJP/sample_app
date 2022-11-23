@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby "2.6.8"
 
 gem 'rails',        '= 6.0.3.2'
+gem 'bcrypt',         '3.1.12'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '< 6'
