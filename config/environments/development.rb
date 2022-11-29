@@ -1,4 +1,5 @@
 Rails.application.configure do
+  config.hosts << "67f3db5b367245948b4a25e5cab77706.vfs.cloud9.ap-northeast-1.amazonaws.com"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
